@@ -1,62 +1,14 @@
 &CONTROL
-    calculation = "bands"
-    max_seconds =  8.64000e+04
-    outdir      = "./"
-    prefix      = "espresso"
-    pseudo_dir  = "C:\Users\ROG\.burai\.pseudopot"
-    title       = "WSe2_SnSe2_non-pol_3x3x1_7Mei(Band)"
-    wf_collect  = .TRUE.
-    wfcdir      = "./"
+    pseudo_dir = "C:\Users\ROG\.burai\.pseudopot"
 /
 
 &SYSTEM
-    a                         =  9.57672e+00
-    c                         =  1.33783e+01
-    degauss                   =  1.00000e-02
-    ecutrho                   =  4.23668e+02
-    ecutwfc                   =  4.70743e+01
-    ibrav                     = 4
-    nat                       = 54
-    nbnd                      = 342
-    nspin                     = 1
-    ntyp                      = 3
-    occupations               = "smearing"
-    smearing                  = "gaussian"
-    starting_magnetization(1) =  0.00000e+00
-    starting_magnetization(2) =  0.00000e+00
-    starting_magnetization(3) =  2.00000e-01
+    a     =  9.57672e+00
+    c     =  1.33783e+01
+    ibrav = 4
+    nat   = 54
+    ntyp  = 3
 /
-
-&ELECTRONS
-    conv_thr         =  1.00000e-06
-    electron_maxstep = 200
-    mixing_beta      =  4.00000e-01
-    startingpot      = "atomic"
-    startingwfc      = "atomic+random"
-/
-
-&BANDS
-    filband        = "espresso.band1"
-    lsym           = .FALSE.
-    outdir         = "./"
-    prefix         = "espresso"
-    spin_component = 1
-/
-
-K_POINTS {tpiba_b}
-12
-gG     20
-M      20
-K      20
-gG     20
-A      20
-L      20
-H      20
-A      0
-L      20
-M      0
-K      20
-H      0
 
 ATOMIC_SPECIES
 Sn    118.71000  Sn.pbe-dn-rrkjus_psl.1.0.0.UPF
