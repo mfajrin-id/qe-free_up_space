@@ -1,0 +1,1 @@
+{"avail":true,"calcID":1,"title":"Band structure","xLabel":"","xAuto":false,"xLower":0.0,"xUpper":3.8705,"xTick":-1.0,"yLabel":"Energy / eV","yAuto":false,"yLower":-25.0,"yUpper":10.0,"yTick":1.0,"background":"#ffffffff","seriesList":[{"name":"up spin","color":"#333333ff","width":1.0,"dash":0,"withSymbol":false}]}
